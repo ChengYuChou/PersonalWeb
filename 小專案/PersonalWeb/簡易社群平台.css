@@ -1,0 +1,262 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    .banner {
+        .title {
+            position: absolute;
+            text-align: center;
+            top: 55px;
+            left: 600px;
+            width: 230px;
+            height: 50px;
+            font-size: 40px;
+            cursor: pointer;
+        }
+
+        .title-line1 {
+            position: absolute;
+            top: 50px;
+            width: 1440px;
+            height: 1px;
+            background-color: black;
+        }
+
+        .title-line2 {
+            position: absolute;
+            top: 110px;
+            width: 1440px;
+            height: 1px;
+            background-color: black;
+        }
+
+        .menu {
+            position: absolute;
+            top: 55px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+
+            .line1 {
+                    position: absolute;
+                    top: 10px;
+                    width: 40px;
+                    height: 3px;
+                    border-radius: 20px;
+                    background-color: black;
+                }
+
+            .line2 {
+                    position: absolute;
+                    top: 20px;
+                    width: 30px;
+                    height: 3px;
+                    border-radius: 20px;
+                    background-color: black;
+                }
+
+            .line3 {
+                    position: absolute;
+                    top: 30px;
+                    width: 25px;
+                    height: 3px;
+                    border-radius: 20px;
+                    background-color: black;
+                }
+
+            .line4 {
+                    position: absolute;
+                    top: 40px;
+                    width: 35px;
+                    height: 3px;
+                    border-radius: 20px;
+                    background-color: black;
+                }
+        }
+        
+        .find {
+            position: absolute;
+            top: 57px;
+            left: 1370px;
+            cursor: pointer;
+
+            .circle {
+                width: 30px;
+                height: 30px;
+                border-style: solid;
+                border-color: black;
+                border-radius: 200px;
+            }
+
+            .line5 {
+                position: absolute;
+                width: 20px;
+                height: 4px;
+                top: 36px;
+                left: 23px;
+                border-radius: 20px;
+                background-color: black;
+                transform: rotate(50deg);
+            }
+        }
+    }
+
+    .bottom {
+        position: relative;
+        width: 1440px;
+        height: 800px;
+        background-image: url(/Users/zhouchengyu/Desktop/Yusweb/小專案/background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+
+    .login_frame {
+        position: absolute;
+        top : 200px;
+        left: 350px;
+        width: 700px;
+        height: 500px;
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        opacity: 0.7;
+
+        .login_banner {
+            position: absolute;
+            top: 10%;
+            left: 39%;
+            font-size: 58px;
+        }
+
+        .sign_up {
+            .sign_up_buttom {
+                position: absolute;
+                top: 30%;
+                left: 37%;
+                font-size: 12px;
+                width: 200px;
+                height: 30px;
+                border-radius: 10px;
+                border-color: #000000;
+                border-width: 1px;
+                cursor: pointer;
+            }
+        }
+
+        .login {
+            .login_buttom{
+                position: absolute;
+                top: 40%;
+                left: 37%;
+                font-size: 12px;
+                width: 200px;
+                height: 30px;
+                border-radius: 10px;
+                border-color: black;
+                border-width: 1px;
+                cursor: pointer;
+            }
+        }
+
+        .keep_buttom {
+            position: absolute;
+            top: 50.2%;
+            left: 37%;
+            width: 15px;
+            height: 15px;
+            background-color: transparent;
+            border-color: #bbbbbb;        
+            border-style: solid;
+            border-radius: 200px;
+            border-width: 1px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s;
+            cursor: pointer;
+
+            .filled {
+                background-color: green;
+            }
+        }
+
+        .keep_banner {
+            position: absolute;
+            top: 50%;
+            left: 40%;
+        }
+
+        .enter_buttom {
+            position: absolute;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+            top: 58%;
+            left: 45%;
+            width: 70px;
+            height: 30px;
+            border-radius: 10px;
+            border-width: 1px;
+            border-color: #000000;
+            border-style: solid;
+            background-color: darkseagreen;
+            color: #fff;
+            cursor: pointer;
+            box-shadow: 30px;
+            transition:  0.2s ease-in-out;
+
+            &:hover {
+                color: black;
+                background-color: rgb(229, 255, 200);
+            }
+        }
+
+
+         .middle {
+             position: absolute;
+            top: 340px;
+            left: 270px;
+            font-size: 18px;
+        }
+
+        .dash_left {
+            position: absolute;
+            top: 352px;
+            left: 190px;
+            width: 70px;
+            height: 1px;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        .dash_right {
+            position: absolute;
+            top: 352px;
+            left: 445px;
+            width: 70px;
+            height: 1px;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        .under_buttom {
+            position: absolute;
+            font-size: 20px;
+            top: 380px;
+            left: 260px;
+            transition: 0.2s;
+            cursor: pointer;
+
+            &:hover {
+                color: #b996ff;
+            }
+        }
+     }
+}
